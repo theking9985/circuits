@@ -1,0 +1,99 @@
+body {
+	background: #0A3D3E;
+	text-align: center;
+	font-family: "Times New Roman", Serif;
+}
+
+h1 {
+	font-size: 40px;
+	color: #CBC645;
+}
+
+img {
+	height: 120px;
+}
+
+a {
+	text-decoration: none;
+	color: #CBC645;
+}
+
+.wrapper {
+	height: 1000px;
+	width: 900px;
+	padding: 10px 10px;
+	background: #0F0F0F;
+	margin: 0 auto;
+	border-left: #FF0001 solid 2px;
+	border-right: #FF0001 solid 2px;
+}
+
+.header {
+	height: 140px;
+	background: #143837;
+	position: relative;
+	border: #EA5756 solid 2px;
+	margin-bottom: 20px;
+}
+
+.main {
+	position: relative;
+	border: #EA5756 solid 2px;
+}
+
+.sidebar1 {
+	float: left;
+	width: 150px;
+	background: #143837;
+	border: black solid;
+	border: #EA5756 solid 2px;
+	height: 400px;
+}
+
+.sidebar2 {
+	text-align: justify;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.content {
+	float: left;
+	width: 722px;
+	background: #fff;
+	border: black solid;
+	border: #EA5756 solid 2px;
+	margin-left: 20px;
+	height: 635px;
+}
+
+.contact1 {
+	background: #143837;
+	margin-top: 765px;
+	border: #EA5756 solid 2px;
+}
+
+.contact2 {
+	display: inline;
+	padding: 0px 40px;
+}
+
+#slogan {
+	font-style: italic;
+	font-size: 30px;
+}
+
+#img {
+	float: left;
+	padding: 10px 0px 0px 10px;
+}
+
+#h1 {
+	float: left;
+	padding: 30px 0px 0px 120px;
+	font-family: Arial, Serif;
+}
+
+#phone {
+	color: #CBC645;
+}
+
