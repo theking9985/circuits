@@ -92,3 +92,10 @@ a {
 	color: #CBC645;
 }
 
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
