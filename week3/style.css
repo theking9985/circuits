@@ -1,12 +1,23 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+@import url(http://fonts.googleapis.com/css?family=Francois+One);
+
 body {
 	background: #0A3D3E;
 	font-family: "Times New Roman", Serif;
 }
 header {
-	height: 140px;
+	padding: 20px;
 	background: #143837;
-	position: relative;
 	border: #EA5756 solid 2px;
 	margin-bottom: 20px;
 }
@@ -14,7 +25,7 @@ h1 {
 	color: #CBC645;
 	float:left;
 	font-size: 40px;
-	font-family: Arial, Serif;
+	font-family: "Francois One", sans-serif;
 	padding: 30px 0px 0px 120px;
 }
 
@@ -26,15 +37,17 @@ img {
 
 p {
 	margin: 0 10px 0 10px;
+	font-family: "Libre Baskerville", serif;
+	text-align: justify;
 }
 
 a {
+	font-family: "Libre Baskerville", serif;
 	text-decoration: none;
 	color: #CBC645;
 }
 
 .wrapper {
-	height: 1000px;
 	width: 900px;
 	padding: 10px 10px;
 	background: #0F0F0F;
@@ -43,38 +56,39 @@ a {
 	border-right: #FF0001 solid 2px;
 }
 .main {
-	position: relative;
 	border: #EA5756 solid 2px;
 }
 
 .sidebar1 {
 	float: left;
-	width: 150px;
+	width: 16%;
 	background: #143837;
-	border: black solid;
 	border: #EA5756 solid 2px;
 	height: 400px;
 }
 
 .sidebar2 {
+	border-bottom: #EA5756 solid 2px;
 	text-align: justify;
 	display: block;
 	margin-bottom: 10px;
 }
 
+#sidebar3 {
+	padding-top: 5px;
+}
+
 .content {
 	float: left;
-	width: 722px;
+	width: 80%;
 	background: #fff;
 	border: black solid;
 	border: #EA5756 solid 2px;
 	margin-left: 20px;
-	height: 635px;
 }
 
 .contact1 {
 	background: #143837;
-	margin-top: 765px;
 	border: #EA5756 solid 2px;
 }
 
@@ -84,18 +98,11 @@ a {
 }
 
 #slogan {
-	font-style: italic;
+	text-align: center;
+	font-family: "Libre Baskerville", serif;
 	font-size: 30px;
 }
 
 #phone {
 	color: #CBC645;
-}
-
-.clearfix:after { 
-	content: "."; 
-	visibility: hidden; 
-	display: block; 
-	height: 0; 
-	clear: both;
 }
