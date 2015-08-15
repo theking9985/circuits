@@ -15,6 +15,7 @@ body {
 	background: #0A3D3E;
 	font-family: "Times New Roman", Serif;
 }
+
 header {
 	padding: 20px;
 	background: #143837;
@@ -46,6 +47,10 @@ a {
 	font-family: "Libre Baskerville", serif;
 	text-decoration: none;
 	color: #CBC645;
+}
+
+ul {
+	margin: 5px 0;
 }
 
 .wrapper {
@@ -106,4 +111,68 @@ a {
 
 #phone {
 	color: #CBC645;
+	margin: 5px 0;
+	text-align: center;
 }
+
+@media only screen and (max-width: 900px) {
+	.wrapper {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 710px) {
+	h1 {
+		float: right;
+		padding: 0;
+	}
+
+	img {
+		margin: 0;
+		width: 100px;
+	}
+	
+	ul {
+		text-align: center;
+	}
+
+	.contact2 {
+		padding: 10px;
+	}
+
+	.wrapper {
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 610px) {
+	img {
+		display: none;
+	}
+
+	h1 {
+		float: none;
+		text-align: center;
+	}
+
+	.sidebar1 {
+		float: none;
+		height: 50px;
+		width: auto;
+		clear: both;
+	}
+
+	.sidebar2 {
+		display: inline;
+		border: none;
+		padding: 10px;
+		margin: 0;
+	}
+
+	.content {
+		float: none;
+		margin: 0;
+		width: auto;
+	}
+}
+
