@@ -11,13 +11,15 @@
 	<img src="#">
 	<h2>Scavenger hunt</h2>
         <form name="password">
-            Password<input type="password" name="pswrd"/>
+            <span>Password</span>
+            <input type="password" name="pswrd"/>
+            <br>
             <input type="button" onclick="check(this.form)" value="Submit"/>
         </form>
         <script language="javascript">
             function check(form) { 
                 if(form.pswrd.value == "1") {
-                    window.open('spa.html')
+                    window.location="spa.html";
                 }
                 else {
                     alert("Incorrected password")

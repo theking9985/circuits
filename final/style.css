@@ -13,6 +13,7 @@ clear: both;
 }
 
 body {
+	font-family: 'Inknut Antiqua', serif;
 	font-size: 16px;
 	text-align: center;
 }
@@ -21,28 +22,40 @@ a {
 	text-decoration: none;
 }
 
-a:active {
-	color: blue;
-}
-
 h1,h2 {
 	color: #FF69B4;
-	font-family: 'Inknut Antiqua', serif;
 	font-size: 3em;
 }
 
 h2 {
 	font-size: 2em;
+}
 
+input[type="button"]{
+	background: #BA95CF;
+	border: solid #654B7F;
+	border-radius: 200px;
+	font-size: 1em;
+	letter-spacing: .2em;
+	padding: .5em;
+	margin-top: 1em;
+}
+
+input[type="password"]{
+	height: 2em;
 }
 
 p {
 	line-height: 3em;
 }
 
+span {
+	font-size: 1.5em;
+}
+
 .next {
-	background: #baa3cf;
-	border: solid #6A537F;
+	background: #BA95CF;
+	border: solid #654B7F;
 	border-radius: 400px;
 	display: inline;
 	letter-spacing: .2em;
