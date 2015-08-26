@@ -41,8 +41,10 @@ p {
 }
 
 .next {
-	background: #FF00BD;
-	border: solid black;
+	background: #baa3cf;
+	border: solid #6A537F;
 	border-radius: 400px;
 	display: inline;
+	letter-spacing: .2em;
+	padding: .5em;
 }
