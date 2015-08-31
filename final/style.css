@@ -4,16 +4,16 @@
 margin: 0;
 padding:0;}
 
-/*.clearfix:after {
+.clearfix:after {
 content: ".";
 visibility: hidden;
 display: block;
 height: 0;
 clear: both;
-}*/
+}
 
 body {
-	background-image: url('/pictures/test1.jpg');
+	background-image: url('pictures/test3.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Inknut Antiqua', serif;
