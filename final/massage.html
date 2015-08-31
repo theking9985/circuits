@@ -9,11 +9,23 @@
 <body>
 	<h1>Clue #2</h1>
 	<img src="#">
-	<img src="#">
-	<p>Enjoy your most favorite thing</p>
-	<div class="next">
-		<a href="#">CLICK ME!!!</a>
-	</div>
+	<p>Enjoy your 2nd most favorite thing. The next clue will come at the end of the massage.</p>
+	<form name="password">
+            <span>Password</span>
+            <input type="password" name="pswrd"/>
+            <br>
+            <input type="button" onclick="check(this.form)" value="Submit"/>
+        </form>
+        <script language="javascript">
+            function check(form) { 
+                if(form.pswrd.value == "1") {
+                    window.location="1stdate.html";
+                }
+                else {
+                    alert("Incorrected password")
+                }
+            }
+        </script>
 
 
 
