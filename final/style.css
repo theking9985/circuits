@@ -13,7 +13,11 @@ clear: both;
 }
 
 body {
+<<<<<<< HEAD
 	background-image: url('pictures/test5.jpg');
+=======
+	background-image: url('pictures/test3.jpg');
+>>>>>>> parent of e20aa76... 10
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Inknut Antiqua', serif;
