@@ -13,7 +13,7 @@ clear: both;
 }
 
 body {
-	background-image: url('pictures/test4.jpg');
+	background-image: url('pictures/test5.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	font-family: 'Inknut Antiqua', serif;
@@ -32,11 +32,6 @@ h1,h2 {
 
 h2 {
 	font-size: 2em;
-}
-
-img {
-	width: 100%;
-	z-index: 0;
 }
 
 input[type="button"]{
