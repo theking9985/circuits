@@ -13,9 +13,6 @@ clear: both;
 }
 
 body {
-	background-image: url('pictures/test4.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
 	font-family: 'Inknut Antiqua', serif;
 	font-size: 16px;
 	text-align: center;
@@ -32,6 +29,9 @@ h1,h2 {
 
 h2 {
 	font-size: 2em;
+}
+
+img {
 }
 
 input[type="button"]{
@@ -56,14 +56,20 @@ span {
 	font-size: 1.5em;
 }
 
+.content {
+	background-image: url('pictures/ip_portrait_375_500.jpg');
+	background-repeat: no-repeat;
+	height: 56vh;
+}
+
 .next {
 	background: #BA95CF;
 	border: solid #654B7F;
 	border-radius: 200px;
 	font-size: 1em;
-	letter-spacing: .2em;
-	padding: .5em;
-	display: inline;
+	letter-spacing: .1em;
+	padding: .2em;
+	display: inline-block;
 	margin-top: 1em;
 }
 
