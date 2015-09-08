@@ -1,3 +1,7 @@
+/*how to make background transparent but not the h1*/
+/*how to make background-color fade out*/
+/*why does it sometimes I refresh the browser it forgets all the css style*/
+
 @import url(http://fonts.googleapis.com/css?family=Inknut+Antiqua:800);
 
 *{box-sizing: border-box;
@@ -14,7 +18,7 @@ clear: both;
 
 body {
 	font-family: 'Inknut Antiqua', serif;
-	font-size: 16px;
+	font-size: 12px;
 	text-align: center;
 }
 
@@ -22,54 +26,70 @@ a {
 	text-decoration: none;
 }
 
-h1,h2 {
-	color: #FF69B4;
-	font-size: 3em;
+h1 {
+	color: #ff00ff;
+	font-size: 2.8em;
+	line-height: 1.2em;
+	margin: .2em .2em 0 .2em;
+	position: absolute;
 }
 
 h2 {
+	color: #FF69B4;
 	font-size: 2em;
 }
 
-img {
+header {
+	background-image: url('pictures/ip_portrait_375_500.jpg');
+	background-repeat: no-repeat;
+	height: 56vh;
+	opacity: .4;
+	position: relative;
 }
 
 input[type="button"]{
 	background: #BA95CF;
 	border: solid #654B7F;
 	border-radius: 200px;
-	font-size: 1em;
-	letter-spacing: .2em;
+	font-family: 'Inknut Antiqua', serif;
+	font-size: 1.4em;
+	letter-spacing: .1em;
 	padding: .5em;
-	margin-top: 1em;
+	margin-top: .7em;
 }
 
 input[type="password"]{
 	height: 2em;
 }
 
+main {
+	background-color: #eee3d3;
+	height: 44vh;
+}
+
 p {
-	line-height: 3em;
+	font-size: 1.3em;
+	line-height: 1.5em;
+	margin: 0 .7em 0 .7em;
 }
 
 span {
 	font-size: 1.5em;
 }
 
-.content {
-	background-image: url('pictures/ip_portrait_375_500.jpg');
-	background-repeat: no-repeat;
-	height: 56vh;
+.h1_rest {
+	margin-top: .7em;
+	text-align: center;
 }
 
 .next {
 	background: #BA95CF;
 	border: solid #654B7F;
 	border-radius: 200px;
-	font-size: 1em;
+	font-size: 1.2em;
 	letter-spacing: .1em;
 	padding: .2em;
 	display: inline-block;
-	margin-top: 1em;
+	margin-top: .8em;
 }
 

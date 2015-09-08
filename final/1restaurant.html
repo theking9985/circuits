@@ -3,14 +3,20 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>Massage</title>
+	<title>Restaurant</title>
 </head>
 
 <body>
-	<h1>Clue #2</h1>
-	<img src="#">
-	<p>Enjoy your 2nd most favorite thing. The next clue will come at the end of the massage.</p>
-	<form name="password">
+
+    <header class="clearfix">
+        <h1 class="h1_rest">Clue #1</h1>
+    </header>
+
+    <main class="clearfix">
+        <h2>Good job babe</h2>
+        <p>You already figured out clue #1 by driving here. Your most favorite thing is eating. The password for the next clue is my birthday (mm/dd/yy).
+    
+        <form name="password">
             <span>Password</span>
             <input type="password" name="pswrd"/>
             <br>
@@ -19,15 +25,13 @@
         <script language="javascript">
             function check(form) { 
                 if(form.pswrd.value == "1") {
-                    window.location="1stdate.html";
+                    window.location="2massage.html";
                 }
                 else {
                     alert("Incorrected password")
                 }
             }
         </script>
-
-
 
 </body>
 
