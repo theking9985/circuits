@@ -25,7 +25,6 @@ a {
 	display: inline-block;
 	font-size: 1.2em;
 	letter-spacing: .1em;
-	/*margin-top: 1em;*/
 	padding: .2em;
 	text-decoration: none;
 }
@@ -40,7 +39,6 @@ h1 {
 h2 {
 	color: #FF69B4;
 	font-size: 2em;
-	top-margin: 3.3em;
 }
 
 input[type="button"]{
@@ -51,7 +49,6 @@ input[type="button"]{
 	font-family: 'Inknut Antiqua', serif;
 	font-size: 1.4em;
 	padding: 0 .5em;
-	margin-top: .7em;
 }
 
 input[type="password"]{
@@ -61,7 +58,7 @@ input[type="password"]{
 p {
 	font-size: 1.3em;
 	line-height: 1.5em;
-	margin: 0 .5em;
+	padding: 0 .5em;
 }
 
 main {
@@ -80,10 +77,6 @@ span {
 
 .h1_clue {
 	padding-top: 2em;
-}
-
-.next {
-	
 }
 
 .wrapper {
