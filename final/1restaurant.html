@@ -6,32 +6,37 @@
 	<title>Restaurant</title>
 </head>
 
-<body>
+<body id="open">
 
-    <header class="clearfix">
-        <h1 class="h1_rest">Clue #1</h1>
-    </header>
+    <div class="wrapper">
+        
+        <header class="clearfix">
+            <h1 class="h1_clue">Clue #1</h1>
+        </header>
 
-    <main class="clearfix">
-        <h2>Good job babe</h2>
-        <p>You already figured out clue #1 by driving here. Your most favorite thing is eating. The password for the next clue is my birthday (mm/dd/yy).
-    
-        <form name="password">
-            <span>Password</span>
-            <input type="password" name="pswrd"/>
-            <br>
-            <input type="button" onclick="check(this.form)" value="Submit"/>
-        </form>
-        <script language="javascript">
-            function check(form) { 
-                if(form.pswrd.value == "1") {
-                    window.location="2massage.html";
+        <img id="img_restaurant" src="pictures/album_index.jpg">
+
+        <main class="clearfix">
+            <h2>Good job babe</h2>
+            <p>You already figured out clue #1 by driving here. Your most favorite thing is eating. The password for the next clue is my birthday (mm/dd/yy).
+        
+            <form name="password">
+                <span>Password</span>
+                <input type="password" name="pswrd"/>
+                <br>
+                <input type="button" onclick="check(this.form)" value="Submit"/>
+            </form>
+            <script language="javascript">
+                function check(form) { 
+                    if(form.pswrd.value == "1") {
+                        window.location="2massage.html";
+                    }
+                    else {
+                        alert("Incorrected password")
+                    }
                 }
-                else {
-                    alert("Incorrected password")
-                }
-            }
-        </script>
+            </script>
+    </div>
 
 </body>
 

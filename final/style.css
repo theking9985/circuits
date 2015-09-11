@@ -1,7 +1,3 @@
-/*how to make background transparent but not the h1*/
-/*how to make background-color fade out*/
-/*why does it sometimes I refresh the browser it forgets all the css style*/
-
 @import url(http://fonts.googleapis.com/css?family=Inknut+Antiqua:800);
 
 *{box-sizing: border-box;
@@ -23,38 +19,38 @@ body {
 }
 
 a {
+	background: #BA95CF;
+	border: solid #654B7F;
+	border-radius: 17em;
+	display: inline-block;
+	font-size: 1.2em;
+	letter-spacing: .1em;
+	/*margin-top: 1em;*/
+	padding: .2em;
 	text-decoration: none;
 }
 
 h1 {
 	color: #ff00ff;
 	font-size: 2.8em;
-	line-height: 1.2em;
-	margin: .2em .2em 0 .2em;
-	position: absolute;
+	line-height: 1.4em;
+	padding: .2em .2em 0 .2em;
 }
 
 h2 {
 	color: #FF69B4;
 	font-size: 2em;
-}
-
-header {
-	background-image: url('pictures/ip_portrait_375_500.jpg');
-	background-repeat: no-repeat;
-	height: 56vh;
-	opacity: .4;
-	position: relative;
+	top-margin: 3.3em;
 }
 
 input[type="button"]{
 	background: #BA95CF;
 	border: solid #654B7F;
-	border-radius: 200px;
+	border-radius: 100px;
+	color: #542089;
 	font-family: 'Inknut Antiqua', serif;
 	font-size: 1.4em;
-	letter-spacing: .1em;
-	padding: .5em;
+	padding: 0 .5em;
 	margin-top: .7em;
 }
 
@@ -62,34 +58,64 @@ input[type="password"]{
 	height: 2em;
 }
 
-main {
-	background-color: #eee3d3;
-	height: 44vh;
-}
-
 p {
 	font-size: 1.3em;
 	line-height: 1.5em;
-	margin: 0 .7em 0 .7em;
+	margin: 0 .5em;
+}
+
+main {
+	padding-top: 22em;
+	position: relative;
 }
 
 span {
 	font-size: 1.5em;
 }
 
-.h1_rest {
-	margin-top: .7em;
-	text-align: center;
+.album_open {
+	left: 46%;
+	top: 31%;
+}
+
+.h1_clue {
+	padding-top: 2em;
 }
 
 .next {
-	background: #BA95CF;
-	border: solid #654B7F;
-	border-radius: 200px;
-	font-size: 1.2em;
-	letter-spacing: .1em;
-	padding: .2em;
-	display: inline-block;
-	margin-top: .8em;
+	
 }
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, .55);
+}
+
+#img_index {
+	position: absolute;
+	left: 46%;
+	top: 31%;
+	width: 32%;
+}
+
+#img_restaurant {
+	position: absolute;
+	left: 38%;
+	top: 37%;
+	width: 32%;
+}
+
+#open {
+	background: url('pictures/open_375_500.jpg') no-repeat top center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
+#close {
+	background: url('pictures/close_375_500.jpg') no-repeat top center fixed;
+	background-size: cover;
+	height: 100vh;
+}
+
 
