@@ -26,6 +26,7 @@ a {
 	font-size: 1.2em;
 	letter-spacing: .1em;
 	padding: .2em;
+	margin: .7em;
 	text-decoration: none;
 }
 
@@ -62,7 +63,6 @@ p {
 }
 
 main {
-	padding-top: 22em;
 	position: relative;
 }
 
@@ -79,10 +79,23 @@ span {
 	padding-top: 2em;
 }
 
+.index {
+	padding-top: 22em;
+}
+
+.clue {
+	padding-top: 23.5em;
+}
+
 .wrapper {
+	background-color: rgba(255, 255, 255, .55);
 	width: 100%;
 	height: 100%;
-	background-color: rgba(255, 255, 255, .55);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
 }
 
 #img_index {
@@ -99,14 +112,14 @@ span {
 	width: 28%;
 }
 
-#open {
-	background: url('pictures/open_375_500.jpg') no-repeat top center fixed;
+#close {
+	background: url('pictures/close_375_500.jpg') no-repeat top center fixed;
 	background-size: cover;
 	height: 100vh;
 }
 
-#close {
-	background: url('pictures/close_375_500.jpg') no-repeat top center fixed;
+#open {
+	background: url('pictures/open_375_500.jpg') no-repeat top center fixed;
 	background-size: cover;
 	height: 100vh;
 }
