@@ -121,7 +121,7 @@ span {
 #open {
 	background: url('pictures/open_375_500.jpg') no-repeat top center fixed;
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
 }
 
 
