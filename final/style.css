@@ -54,6 +54,7 @@ input[type="button"]{
 	font-family: 'Inknut Antiqua', serif;
 	font-size: 1.4em;
 	padding: 0 .5em;
+	-webkit-appearance: none;
 	/*width: 90px;*/
 }
 
