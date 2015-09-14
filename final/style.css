@@ -89,7 +89,8 @@ span {
 }
 
 .clue {
-	padding-top: 23.5em;
+	height: 350px;
+	margin-top: 23.5em;
 }
 
 .wrapper {
@@ -106,7 +107,7 @@ span {
 }
 
 #img_restaurant {
-	position: absolute;
+	position: fixed;
 	left: 40%;
 	top: 37%;
 	width: 28%;
